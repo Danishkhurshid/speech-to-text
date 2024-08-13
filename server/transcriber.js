@@ -31,10 +31,7 @@ class Transcriber extends EventEmitter {
 
       this.dgConnection.on(LiveTranscriptionEvents.Open, () => {
         console.log("Deepgram connection opened");
-        
-      // @TODO: This piece of code is not working ???
-
-
+      // @TODO: Debug This piece of code is not working ???
         // Ensure you set up the event listener here
         this.dgConnection.on(LiveTranscriptionEvents.Transcript, (data) => {
           console.log("Transcript data received:", data);

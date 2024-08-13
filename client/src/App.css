@@ -1,0 +1,54 @@
+/* Apply a blue to blackish gradient background */
+body {
+  background: linear-gradient(to bottom, #1e3a8a, #0f172a);
+  color: white;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.1); /* Slightly transparent background */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: #3b82f6; /* Blue color */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 50px; /* Rounded button */
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:disabled {
+  background-color: #a1a1a1; /* Disabled button color */
+  cursor: not-allowed;
+}
+
+textarea {
+  background-color: #111827; /* Dark background for textarea */
+  color: white;
+  border: 1px solid #374151; /* Slightly lighter border */
+  border-radius: 8px;
+  padding: 10px;
+  width: 100%;
+  box-sizing: border-box;
+}
