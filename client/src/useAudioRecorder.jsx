@@ -1,5 +1,6 @@
 import { useState, useCallback, useRef } from "react";
 
+// Audio Recorder hook.
 const useAudioRecorder = ({ dataCb }) => {
   const [isRecording, setIsRecording] = useState(false);
   const [isPaused, setIsPaused] = useState(false);
